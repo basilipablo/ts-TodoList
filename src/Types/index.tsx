@@ -6,3 +6,5 @@ export type Todo = {
 export type MapTodo = (selectedTodo: Todo) => void;
 
 export type AddTodo = (newTodo: string) => void;
+
+export type DeleteTodo = (selectedTodo: Todo) => void;

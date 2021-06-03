@@ -1,5 +1,8 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 import { AddTodo } from './../Types/index';
+import Button from '@material-ui/core/Button';
+import { TextField } from '@material-ui/core';
+import ListAltIcon from '@material-ui/icons/ListAlt';
 
 interface AddTodoFormProps {
     addTodo: AddTodo
@@ -19,10 +22,10 @@ const AddTodoForm: React.FC<AddTodoFormProps> = ({ addTodo }) => {
     }
 
     return (
-        <form>
-            <input type="text" value={newTodo} onChange={handleChange}/>
-            <button type="submit" onClick={handleSubmit}>Add Todo</button>
-        </form>
+    <form>
+        <TextField value={newTodo} onChange={handleChange} />
+        <Button startIcon={<ListAltIcon />} type="submit" onClick={handleSubmit} variant="contained" color="primary" >Add Todo</Button>
+    </form>
     )
 }
 

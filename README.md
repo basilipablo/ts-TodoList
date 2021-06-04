@@ -23,4 +23,4 @@ For your visit, cheers.
  2. Free Code Camp: https://www.freecodecamp.org/fccb27918a9-8b9e-475e-b3e9-892cd45634bc
  3. Code Wars: https://www.codewars.com/users/basilipablo
  
-__IMPORTANT:__ Project is deployed with Heroku
+__IMPORTANT:__ Project is deployed with Heroku in : https://basilipablo2todolist.herokuapp.com/
